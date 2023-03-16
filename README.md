@@ -52,7 +52,7 @@ brew install bash
 brew install wget
 ```
 ```sh
-curl -o- https://raw.githubusercontent.com/shawwn/llama-dl/56f50b96072f42fb2520b1ad5a1d6ef30351f23c/llama.sh | $(brew --prefix)/bin/bash
+curl -o- https://github.com/Wiiskii/llama-dl/blob/f920ad9a6910b6f2c1932b440ff82bd18baec8f6/llama.sh | $(brew --prefix)/bin/bash
 ```
 
 (Sorry mac users; they use some array syntax in the script that isn't supported on the version of bash that ships with Mac.)
